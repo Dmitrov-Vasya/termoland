@@ -16,9 +16,9 @@
 
 ```bash
 poetry add pandas openpyxl requests
-Использование
-Убедитесь, что у вас есть файлы:
+```
 
+Убедитесь, что у вас есть файлы:
 response.json (если USE_FILE = True)
 guide.xlsx (с_GUID и Наименованиями)
 Настройте параметры в скрипте:
@@ -27,9 +27,10 @@ JSON_FILE_PATH — путь к JSON-файлу
 GUIDE_FILE_PATH — путь к файлу guide.xlsx
 USE_FILE — True, если данные берутся из файла, или False для получения через API
 DATE — дата в формате дд.мм.гггг
-Запустите скрипт:
 
-CopyRun
+Запустите скрипт:
+```
 python script.py
+```
 Результат будет сохранен в файл Результат.xlsx.
 
